@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.side-panel {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+    padding: 1%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.side-panel hr {
+    width: 70%;
+    color: red;
+}
+
+.main-panel {
+    padding: 5%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.content {
+
+    margin-top: 40px;
+
+}
+
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .tech {
+     width: 50%;
+     margin: 0; 
+     padding: 0;
+  }
+  * {box-sizing:border-box}
+   .container {
+     width: 80%; 
+     background-color: #ddd;
+   }
+  .skills {
+     text-align: right; 
+     padding-top: 0.5em; 
+     padding-bottom: 0.5em; 
+     color: white; 
+   }
+   
+   .java {width: 80%; background-color: #61358d;} 
+   .cpp {width: 60%; background-color: #61358d;}
+   .cs {width: 60%; background-color: #61358d;}
+   .python {width: 70%; background-color: #61358d;} 
+   .js {width: 50%; background-color: #61358d;}
