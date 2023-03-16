@@ -10,7 +10,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: antiquewhite;
+    background-color: #EEF1EF;
     padding: 1%;
     overflow: hidden;
     text-align: center;
@@ -24,7 +24,7 @@ body {
 .main-panel {
     padding: 5%;
     margin-left: 25%;
-    width: 50%;
+    width: 60%;
 }
 
 .content {
@@ -41,7 +41,7 @@ body {
   }
   
   .tech {
-     width: 50%;
+     width: 80%;
      margin: 0; 
      padding: 0;
   }
@@ -62,3 +62,4 @@ body {
    .cs {width: 60%; background-color: #61358d;}
    .python {width: 70%; background-color: #61358d;} 
    .js {width: 50%; background-color: #61358d;}
+   
